@@ -881,13 +881,13 @@ span {
 
 @media (max-width: 365px) {
   .profession-container{
-     padding-top: 30px;
+     margin-top: 30px;
   }
   .about-img img {
     width: 70vw;
   }
   .home-content{
-    padding-bottom: 60px;
+    margin-bottom: 10px;
   }
 
   .footer {
