@@ -84,7 +84,7 @@ ScrollReveal().reveal(
 );
 ScrollReveal().reveal(".home-content h1, .about-img img", { origin: "left" });
 
-ScrollReveal2().reveal(".about-img img", { origin: "right" });
+ScrollReveal2().reveal(".about-img img", { origin: "left" });
 
 
 crollReveal().reveal(".home-content h3, .home-content p, .about-content", {
