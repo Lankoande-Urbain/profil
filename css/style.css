@@ -840,15 +840,15 @@ span {
 }
 
 @media (max-width: 617px) {
+  .header{
+    margin
+  }
   .portfolio .portfolio-container {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
 
   #darkMode-icon {
     right: 6rem;
@@ -880,6 +880,9 @@ span {
 }
 
 @media (max-width: 365px) {
+  .header {
+    margin-bottom: 30px;
+  }
   .profession-container{
      margin-top: 30px;
   }
