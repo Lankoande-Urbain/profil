@@ -209,21 +209,22 @@ section {
 
 @keyframes professionRotate {
   0%,
-  20% {
+  16% {
     transform: rotate(0deg);
   }
-  25%,
-  45% {
+  21%,
+  37% {
     transform: rotate(-90deg);
   }
-  50%,
-  70% {
+  42%,
+  58% {
     transform: rotate(-180deg);
   }
-  75%,
-  95% {
+  63%,
+  79% {
     transform: rotate(-270deg);
   }
+  84%,
   100% {
     transform: rotate(-360deg);
   }
@@ -900,7 +901,6 @@ span {
   }
   .profession-container{
      margin-top: 90px;
-     background-color: red;
   }
   .about-img img {
     width: 80vw;
