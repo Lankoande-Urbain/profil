@@ -885,9 +885,10 @@ span {
   }
   .about-img img {
     width: 70vw;
+    margin-left: -20px;
   }
   .home-content{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   .footer {
