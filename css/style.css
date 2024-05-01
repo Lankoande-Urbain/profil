@@ -883,12 +883,16 @@ span {
   .header {
     margin-bottom: 30px;
   }
+  .home {
+    margin-top: 40px;
+  }
   .profession-container{
      margin-top: 30px;
   }
   .about-img img {
     width: 70vw;
     margin-left: -30px;
+    padding-left: -30px;
   }
   .home-content{
     margin-bottom: 20px;
