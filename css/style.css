@@ -886,6 +886,9 @@ span {
   .about-img img {
     width: 70vw;
   }
+  .home-content{
+    padding-bottom: 30px;
+  }
 
   .footer {
     flex-direction: column-reverse;
