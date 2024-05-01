@@ -896,10 +896,11 @@ span {
   }
   .profession-box {
     margin-top: 40px;
-       background-color: red;
+      
   }
   .profession-container{
      margin-top: 90px;
+     background-color: red;
   }
   .about-img img {
     width: 80vw;
