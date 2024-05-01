@@ -880,8 +880,8 @@ span {
 }
 
 @media (max-width: 365px) {
-  .profession-box{
-     padding-top: 20px;
+  .profession-container{
+     padding-top: 30px;
   }
   .about-img img {
     width: 70vw;
