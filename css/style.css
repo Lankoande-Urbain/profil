@@ -208,23 +208,22 @@ section {
 }
 
 @keyframes professionRotate {
-  0%,
-  16% {
+ 0%,
+  20% {
     transform: rotate(0deg);
   }
-  21%,
-  37% {
+  25%,
+  45% {
     transform: rotate(-90deg);
   }
-  42%,
-  58% {
+  50%,
+  70% {
     transform: rotate(-180deg);
   }
-  63%,
-  79% {
+  75%,
+  95% {
     transform: rotate(-270deg);
   }
-  84%,
   100% {
     transform: rotate(-360deg);
   }
