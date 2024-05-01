@@ -853,6 +853,9 @@ span {
   #darkMode-icon {
     right: 6rem;
   }
+   .home {
+    margin-top: 60px;
+  }
 
   .home {
     padding: 0 3% 30rem;
@@ -873,7 +876,11 @@ span {
   .home .profession-box .profession:nth-child(4) {
     transform: rotate(180deg) translate(-210px, -335px);
   }
-
+.about-img img {
+    width: 80vw;
+    margin-left: -50px;
+    padding-left: -30px;
+  }
   .contact form .input-box input {
     width: 100%;
   }
@@ -884,14 +891,14 @@ span {
     margin-bottom: 30px;
   }
   .home {
-    margin-top: 40px;
+    margin-top: 60px;
   }
   .profession-container{
      margin-top: 30px;
   }
   .about-img img {
-    width: 70vw;
-    margin-left: -30px;
+    width: 80vw;
+    margin-left: -50px;
     padding-left: -30px;
   }
   .home-content{
