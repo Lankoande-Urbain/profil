@@ -72,7 +72,7 @@ ScrollReveal({
 
 ScrollReveal2({
   reset: true,
-  distance: "40px",
+  distance: "20px",
   duration: 2000,
   delay: 200,
 });
@@ -84,7 +84,7 @@ ScrollReveal().reveal(
 );
 ScrollReveal().reveal(".home-content h1, .about-img img", { origin: "left" });
 
-ScrollReveal2().reveal(".about-img img", { origin: "left" });
+ScrollReveal2().reveal(".about-img img", { origin: "right" });
 
 
 crollReveal().reveal(".home-content h3, .home-content p, .about-content", {
