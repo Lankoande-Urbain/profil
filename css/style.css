@@ -282,9 +282,9 @@ section {
 
 .home-img img {
   position: absolute;
-  bottom: -47px;
+  bottom: -40px;
   right: 0;
-  height: 640px;
+  height: 600px;
   pointer-events: none;
 }
 
