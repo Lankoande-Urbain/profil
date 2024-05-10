@@ -9,14 +9,18 @@
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
 
     <!-- Swiper css-->
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!-- BoxIcons link-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- CSS link-->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Firebase App -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+  <!-- Firebase Database -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+
   </head>
   <body>
     <!-- Header-->
@@ -218,7 +222,7 @@
     <!-- Contact section  -->
     <section id="contact" class="contact">
       <h2 class="heading">Contactez<span> Moi!</span></h2>
-      <form action="#" method="post" class="contact-form">
+      <form action="#" method="post" class="contact-form" id="contact-form">
         <div class="input-box">
           <input type="text" name="name" id="name" placeholder="Nom et prénom">
           <input type="email" name="email" id="email" placeholder="Adresse Email ">
@@ -251,5 +255,7 @@
     
     <!-- js link -->
     <script src="js/script.js"></script>
+<!-- Suggested code may be subject to a license. Learn more: ~LicenseLog:1714009673. -->
+    <script src="js/firebase.js"></script>
   </body>
 </html> 
