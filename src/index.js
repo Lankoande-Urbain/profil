@@ -21,15 +21,6 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const messages = collection(db, 'PortfolioMessage');
 
-// getDocs(messages).then((snapshot) => {
-//    let messages = [];
-//    snapshot.docs.forEach((doc) => {
-//       messages.push({ ...doc.data() })
-//    })
-//    console.log(messages);
-// })
-
-
 const form = document.querySelector("#contact-form");
 const alertDiv = document.querySelector(".alert");
 
