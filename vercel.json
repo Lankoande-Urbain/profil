@@ -1,7 +1,6 @@
 {
    "builds": [
       {
-         "name": "my-profile",
          "src": "/package.json",
          "use": "@vercel/static-build",
          "config": {
