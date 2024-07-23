@@ -1,12 +1,11 @@
 {
    "builds": [
       {
-         "name": "portofolio",
          "src": "/package.json",
          "use": "@vercel/static-build",
          "config": {
             "distDir": "dist",
-            "entrypoint": "npm run build"
+            "entrypoint": "/dist"
          }
       }
    ],

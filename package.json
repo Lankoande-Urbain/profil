@@ -8,8 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "install": "npm install"
+    "build": "webpack"
   },
   "author": "lankoande Urbain",
   "license": "ISC",
